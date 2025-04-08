@@ -18,7 +18,7 @@
 
 ## 🎯 Amaç
 
-Bu proje, bir interface'in birden fazla implementasyonu olduğunda, bunların ihtiyaçlara göre nasıl ayrıştırılabileceğini ve .NET 8'in `AddKeyedScoped`, `GetRequiredKeyedService` gibi yenilikleriyle nasıl kolaylaştığını göstermektedir.
+Bu proje, bir interface'in birden fazla implementasyonu olduğunda, bunların ihtiyaçlara göre nasıl ayrıştırılabileceğini ve .NET 8'in "AddKeyedScoped" ve "GetRequiredKeyedService" gibi yenilikleriyle nasıl kolaylaştığını göstermektedir.
 
 ---
 
