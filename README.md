@@ -1,25 +1,21 @@
-<h1 align="center">.NET 8 - Keyed Service Örnek Projesi</h1>
+<h1 align="center">.NET 8 - Keyed Service Karşılaştırmalı Örnek Projesi</h1>
 
 <p align="center">
-  Bu proje, .NET 8 ile birlikte gelen <strong>Keyed Service</strong> özelliğini <strong>N-Katmanlı Mimari</strong> ile nasıl kullanabileceğimizi gösteren örnek bir uygulamadır.
+Bu proje, <strong>.NET 8</strong> ile gelen <strong>Keyed Services</strong> özelliğini <strong>N-Layer Architecture</strong> ile uygulamalı olarak göstermektedir.<br />
+Proje ayrıca, aynı senaryonun <strong>.NET 6</strong>'da <strong>Factory Pattern</strong> kullanılarak nasıl çözüldüğünü de içermekte ve iki yaklaşımı karşılaştırmaktadır.
 </p>
+
 
 ---
 
 ## 🔧 Kullanılan Teknolojiler
 
-- .NET 8 - .NET 6
+- .NET 8 & .NET 6
 - ASP.NET Core Web API
-- Katmanlı Mimari (API, Business, Core, Infrastructure)
+- N-Layer Architecture (API, Business, Core, Infrastructure)
 - Dependency Injection
 - Keyed Services
-
----
-
-## 🎯 Amaç
-
-Bu proje, bir interface'in birden fazla implementasyonu olduğunda, bunların ihtiyaçlara göre nasıl ayrıştırılabileceğini ve .NET 8'in "AddKeyedScoped" ve "GetRequiredKeyedService" gibi yenilikleriyle nasıl kolaylaştığını göstermektedir.
-
+  
 ---
 
 <h2>📂 Proje Yapısı</h2>
